@@ -1,0 +1,6 @@
+# Routings
+trainingbundle_hello:
+    path:     /hello
+    methods:  [GET]
+    defaults:
+        _controller: 'TrainingBundle:Admin/Hello:hello'

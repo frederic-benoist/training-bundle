@@ -12,15 +12,4 @@
     "license" : [
         "MIT"
     ],
-    "require" : {
-    },
-    "autoload" : {
-        "psr-0" : {
-            "TrainingBundle\\TrainingBundle" : ""
-        }
-    },
-    "target-dir" : "TrainingBundle",
-    "repositories" : [{
-
-    }]
 }
