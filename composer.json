@@ -1,0 +1,30 @@
+{
+    "name" : "TrainingBundle",
+    "description" : "A training bundle for PrestaShop",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Frédéric BENOIST",
+        "email" : "demo@company.com"
+    }],
+    "keywords" : [
+        "PrestaShop training bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "TrainingBundle" : ""
+        }
+    },
+    "target-dir" : "TrainingBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "some_version-dev"
+        }
+    }
+}
