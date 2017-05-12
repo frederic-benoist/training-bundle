@@ -10,8 +10,8 @@
         "PrestaShop training bundle"
     ],
     "autoload": {
-        "psr-0": { "TrainingBundle": "" }
-        "psr-4": { "TrainingBundle\\": ""}        
+        "psr-0": { "TrainingBundle": "" },
+        "psr-4": { "TrainingBundle\\": ""}
     },
     "license" : [
         "MIT"
