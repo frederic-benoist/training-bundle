@@ -9,6 +9,9 @@
     "keywords" : [
         "PrestaShop training bundle"
     ],
+    "autoload": {
+        "psr-0": { "TrainingBundle": "" }
+    },
     "license" : [
         "MIT"
     ]
