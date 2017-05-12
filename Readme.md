@@ -17,7 +17,7 @@
 
     new TrainingBundle\TrainingBundle(),
 
-##Add in routing.yml
+## Add in routing.yml
 
 training:
     resource: "@TrainingBundle/Resources/config/routing.yml"
