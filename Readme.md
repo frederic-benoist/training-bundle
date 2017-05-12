@@ -1,7 +1,7 @@
 
 
 ## Add with composer :
-
+```
 "require": {
     ....
     "frederic-benoist/TrainingBundle": "dev-master"
@@ -11,12 +11,13 @@
         "type" : "vcs",
         "url" : "https://github.com/frederic-benoist/TrainingBundle.git"
     }],
-
+```
 
 ## Add in AppKernel.php
 
+```php
     new TrainingBundle\TrainingBundle(),
-
+```
 ## Add in routing.yml
 
 training:
