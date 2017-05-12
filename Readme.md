@@ -18,7 +18,10 @@ DON'T USE ON PRODUCTION SERVER
         "url" : "https://github.com/frederic-benoist/TrainingBundle.git"
     }],
 ```
-
+Lancer composer update.
+```
+    composer update
+```
 ### Add in app/AppKernel.php
 
 ```php
