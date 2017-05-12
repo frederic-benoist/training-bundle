@@ -1,5 +1,5 @@
 {
-    "name" : "TrainingBundle",
+    "name" : "frederic-benoist/TrainingBundle",
     "description" : "A training bundle for PrestaShop",
     "type" : "symfony-bundle",
     "authors" : [{
@@ -16,15 +16,11 @@
     },
     "autoload" : {
         "psr-0" : {
-            "TrainingBundle" : ""
+            "TrainingBundle\\TrainingBundle" : ""
         }
     },
     "target-dir" : "TrainingBundle",
     "repositories" : [{
-    }],
-    "extra" : {
-    "branch-alias" : {
-            "dev-master" : "some_version-dev"
-        }
-    }
+
+    }]
 }
