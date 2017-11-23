@@ -35,6 +35,14 @@ Lancer composer update.
         resource: "@TrainingBundle/Resources/config/routing.yml"
 ```
 
+### clear symfony cache
+
+php app/console cache:clear --env=prod
+php app/console cache:clear --env=dev
+
+#### Try new controller
+
+http://....myshop.../admin.../index.php/hello
 
 ## Licensing
 
