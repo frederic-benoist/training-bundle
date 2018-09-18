@@ -4,7 +4,7 @@ Sample Symfony bundle for PrestaShop 1.7.
 
 ## Install
 
-DON'T USE ON PRODUCTION SERVER
+**DON'T USE ON PRODUCTION SERVER**
 
 ### Add in composer.json :
 ```
@@ -13,10 +13,12 @@ DON'T USE ON PRODUCTION SERVER
     "frederic-benoist/TrainingBundle": "dev-master"
 }
 
-"repositories" : [{
+"repositories" : [
+    {
         "type" : "vcs",
         "url" : "https://github.com/frederic-benoist/TrainingBundle.git"
-    }],
+    }
+],
 ```
 Lancer composer update.
 ```
@@ -37,8 +39,8 @@ Lancer composer update.
 
 ### clear symfony cache
 
-php app/console cache:clear --env=prod
-php app/console cache:clear --env=dev
+php bin/console cache:clear --env=prod
+php bin/console cache:clear --env=dev
 
 #### Try new controller
 
