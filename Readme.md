@@ -10,13 +10,13 @@ Sample Symfony bundle for PrestaShop 1.7.
 ```
 "require": {
     ....
-    "frederic-benoist/TrainingBundle": "dev-master"
+    "frederic-benoist/training-bundle": "dev-master"
 }
 
 "repositories" : [
     {
         "type" : "vcs",
-        "url" : "https://github.com/frederic-benoist/TrainingBundle.git"
+        "url" : "https://github.com/frederic-benoist/training-bundle.git"
     }
 ],
 ```
