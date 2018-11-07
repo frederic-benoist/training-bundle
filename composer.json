@@ -1,5 +1,5 @@
 {
-    "name" : "frederic-benoist/TrainingBundle",
+    "name" : "frederic-benoist/training-bundle",
     "description" : "A training bundle for PrestaShop",
     "type" : "symfony-bundle",
     "authors" : [{
