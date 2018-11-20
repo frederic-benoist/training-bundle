@@ -20,9 +20,9 @@ Sample Symfony bundle for PrestaShop 1.7.
     }
 ],
 ```
-Lancer composer update.
+Lancer composer .
 ```
-    composer update
+    composer install frederic-benoist/training-bundle
 ```
 ### Add in app/AppKernel.php
 
