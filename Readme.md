@@ -22,7 +22,7 @@ Sample Symfony bundle for PrestaShop 1.7.
 ```
 Lancer composer .
 ```
-    composer install frederic-benoist/training-bundle
+    composer require frederic-benoist/training-bundle
 ```
 ### Add in app/AppKernel.php
 
