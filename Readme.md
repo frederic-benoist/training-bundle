@@ -39,8 +39,10 @@ Lancer composer .
 
 ### clear symfony cache
 
+```
 php bin/console cache:clear --env=prod
 php bin/console cache:clear --env=dev
+```
 
 #### Try new controller
 
