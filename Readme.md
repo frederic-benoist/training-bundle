@@ -8,11 +8,6 @@ Sample Symfony bundle for PrestaShop 1.7.
 
 ### Add in composer.json :
 ```
-"require": {
-    ....
-    "frederic-benoist/training-bundle": "dev-master"
-}
-
 "repositories" : [
     {
         "type" : "vcs",
@@ -22,7 +17,7 @@ Sample Symfony bundle for PrestaShop 1.7.
 ```
 Lancer composer .
 ```
-    composer require frederic-benoist/training-bundle
+    composer require frederic-benoist/training-bundle dev-master
 ```
 ### Add in app/AppKernel.php
 
